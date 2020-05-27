@@ -14,6 +14,12 @@ module.exports = {
           { text: '科脉数说大屏', link: '/projects/km/data_bigCube' },
           { text: '云商历史项目', link: '/projects/km/cloud_shop' }
         ]
+      },
+      {
+        text: 'Blog',
+        items: [
+          { text: 'vuepress', link: '/privates/vuepress/' }
+        ]
       }
     ],
     sidebar:[
