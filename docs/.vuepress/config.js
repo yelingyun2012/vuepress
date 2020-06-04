@@ -17,21 +17,18 @@ module.exports = {
       },
       {
         text: 'Blog',
-        items: [
-          { text: 'vuepress', link: '/privates/vuepress/' }
-        ]
+        items: [{ text: 'vuepress', link: '/privates/vuepress/' }]
+      },
+      {
+        text: '工具库',
+        items: [{ text: 'numeraljs', link: '/privates/utils/numeraljs' }]
       }
     ],
-    sidebar:[
+    sidebar: [
       {
         title: '导航',
         collapsable: false,
-        children:[
-          '/projects/km/boss_online',
-          '/projects/km/data_cube',
-          '/projects/km/data_bigCube',
-          '/projects/km/cloud_shop'
-        ]
+        children: ['/projects/km/boss_online', '/projects/km/data_cube', '/projects/km/data_bigCube', '/projects/km/cloud_shop']
       }
     ]
   }
